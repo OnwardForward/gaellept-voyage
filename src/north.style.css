@@ -1,0 +1,119 @@
+:root {
+    --primary-color:#805f03;
+    --secondary-color: white;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #805f03;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* gap: 20px; */
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row; /* although this is the default behavior, and not necessary to write it again */
+    justify-content: space-between;
+}
+
+header {
+    background-image: url("../image/north1.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+    padding: 150px 0;
+    color: white;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 30px 0;
+    vertical-align: middle;
+    
+}
+
+header h3 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+h4 {
+    color: var(--secondary-color);
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1;
+}
+
+a {
+    color: var(--secondary-color);
+    font-family: var(--default-font-family);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header a {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #805f03;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: white;
+}
+
+
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header h3 {
+        font-size: 12px;
+    }
+}
+
+footer {
+    /* text-align: center; */
+    font-family: var(--default-font-family);
+    font-size: 12px;
+    margin-top: 30px;
+    /* color: white; */
+    color: var(--secondary-color);
+    font-family: var(--default-font-family);
+}
