@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-image: url("../image/west1.jpg");
+    background-image: url("../image/west1.avif");
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
     background-repeat: no-repeat;
     background-size: cover;
